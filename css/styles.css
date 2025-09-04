@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+body{
+  height: 100vh;
+  background-color: rgb(78, 75, 75);
+  
+}
+.header {
+  background-color: antiquewhite;
+  height: 50px;
+  display: flex;
+  padding-bottom: 80px;
+  color: rgb(12, 97, 170);
+}
+ img{
+  height: 50px;
+  width: 50px;
+ }
+ 
+.h-text {
+  width: 90%;
+  text-align: center;
+  }
+
+#heading {
+  font-size: larger;
+  font-family: 'Gabriela', sans-serif;
+}
+#tag{
+  font-style: italic;
+}
+
+
+.landing {
+  background-image: url('../img/landing.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  align-self: center;
+  padding: 20% 20px;
+  
+}
+
+#l-text{
+  backdrop-filter: blur(10px);
+  padding: 0%;
+  border-radius: 20px;
+}
+
+.nav-bar {
+  align-self: center;
+}
+
+ul {
+  list-style-type: none;
+  align-self: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(73, 67, 67);
+  justify-content: center;
+  width: 50%;
+}
+
+ul li a {
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 14px;
+}
+
+.contact {
+  text-align: center;
+  color: aliceblue;
+}
+textarea {
+  width: 70%;
+}
