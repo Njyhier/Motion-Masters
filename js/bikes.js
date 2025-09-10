@@ -28,6 +28,7 @@ function Bicycle(name, id, cost, color, gears, brakeType) {
     alert("This bike has already been hired out, please select another one.")
   }
    else{
+    document.getElementById("hireForm").style.display = "none";
     this.useDetails();
    }
   
@@ -100,5 +101,6 @@ $("#hireForm").submit(function(event){
   hiredBikes.push(bikeName);
     alert("Hello " + cName + "! " +"Your request has been received. Please visit our shop and pick up your bike");
   $("#hireForm")[0].reset();
+  $("#total").text("");
   $("#popUp").hide();
 });
