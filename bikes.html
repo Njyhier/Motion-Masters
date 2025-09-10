@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bicycles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Motion Masters bicycles</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+       <div class="header">
+        <img src="img/logo.jpg" alt="logo">
+        <div class="h-text">
+          <div id="heading">
+            <h1>Motion Masters</h1>
+          </div>
+
+          <div id="tag">
+            <p>Don't just hitch a ride, ride yourself!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  <div class="b-portfolio">
+
+    <div class="row">
+      <div class="col-md-2">
+        <img src="img/bicycles/b1.jpg" alt="bike" id="bike1">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/b2.jpg" alt="bike" id="bike2">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/b3.jpg" alt="bike" id="bike3">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/b4.jpg" alt="bike" id="bike4">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/b5.jpg" alt="bike" id="bike5">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/b6.jpg" alt="bike" id="bike6">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/3.jpg" alt="bike" id="bike7">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/2.jpg" alt="bike" id="bike8">
+      </div>
+
+      <div class="col-md-2">
+        <img src="img/bicycles/3.jpg" alt="bike" id="bike9">
+      </div>
+    </div>
+
+  </div>
+
+  <div id="popUp">
+    <div class="popup-content">
+      <span id="close">&times</span>
+      <h1 id="bName"></h1>
+      <img src="" alt="" id="bImage">
+      <p id="gears"></p>
+      <p id="break"></p>
+      <p id="hirecost"></p>
+      <button class="btn-danger" id="hire">Hire this bike</button>
+
+      <hr>
+      <form id="hireForm">
+        <h2>Fill in the form below:</h2>
+        <input type="hidden" id="inputHireCost">
+        <input type="text" placeholder="Your name..." id="cName"> <br>
+        <input type="text" placeholder="Phone number..." id="phn"><br>
+        <input type="number" placeholder="Hire for how many hours" id="hours"> <br>
+        <div id="total" class="bg-success"></div>
+        <button type="submit" class="btn-danger">Submit!</button>
+      </form>  
+    </div>
+  </div>
+
+    
+  
+</div>
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bikes.js"></script>
+</body>
+</html>
