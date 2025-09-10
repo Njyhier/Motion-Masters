@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 body{
-  height: 100vh;
   background-color: rgb(78, 75, 75);
   
 }
@@ -17,9 +16,21 @@ body{
  }
  
 .h-text {
-  width: 90%;
+  width: 100%;
   text-align: center;
-  }
+}
+
+.pill-nav a {
+  z-index: 1;
+  display: inline-block;
+  padding: 5px;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
 
 #heading {
   font-size: larger;
@@ -32,40 +43,21 @@ body{
 
 .landing {
   background-image: url('../img/landing.jpg');
+  height: 100vh;
   background-size: cover;
   text-align: center;
   color: white;
   align-self: center;
-  padding: 20% 20px;
+  
   
 }
 
+
 #l-text{
-  backdrop-filter: blur(10px);
-  padding: 0%;
+  background-size: contain;
   border-radius: 20px;
-}
-
-.nav-bar {
-  align-self: center;
-}
-
-ul {
-  list-style-type: none;
-  align-self: center;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(73, 67, 67);
-  justify-content: center;
-  width: 50%;
-}
-
-ul li a {
-  display: block;
-  color: aliceblue;
-  text-decoration: none;
-  padding: 14px;
+  padding: 15% 20px;
+  padding-bottom: 0;
 }
 
 .contact {
